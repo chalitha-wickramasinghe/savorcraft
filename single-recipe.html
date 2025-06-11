@@ -1,35 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Basic meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="View step-by-step instructions, ingredients, and preparation tips for your favorite recipes on SavorCraft." />
-    <meta name="keywords" content="SavorCraft, recipe, ingredients, how to cook, cooking instructions" />
-    <meta name="author" content="Chalitha T. Wickramasingha" />
-    
-    <title>Single Recipe | SavorCraft</title>
-    
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./images/single-recipe.png" type="image/x-icon" />
-    
-    <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
-    
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    
-    <!-- main css -->
-    <link rel="stylesheet" href="./css/main.css" />
 
-  </head>
+<head>
+  <!-- Basic meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="View step-by-step instructions, ingredients, and preparation tips for your favorite recipes on SavorCraft." />
+  <meta name="keywords" content="SavorCraft, recipe, ingredients, how to cook, cooking instructions" />
+  <meta name="author" content="Chalitha T. Wickramasingha" />
 
-  <body>
-   <h1>Single Recipe Page</h1>
-    
-  </body>
+  <title>Single Recipe | SavorCraft</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./images/single-recipe.png" type="image/x-icon" />
+
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./images/logo_top.png" alt="SavorCraft logo" />
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="tags.html" class="nav-link">Tags</a></li>
+        <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+        <li class="contact-link">
+          <a href="contact.html" class="btn">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- main -->
+  <main>
+    <h1>single recipe </h1>
+
+  </main>
+
+  <!-- footer -->
+  <footer class="page-footer">
+
+    <div class="footer-content">
+      <div class="footer-social">
+        <a href="#"><img src="/images/logo_footer.png" alt="SavorCraft footer logo" class="footer-logo-img"></a>
+        <div class="social-icons">
+          <a href="#" class="instagram-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="meta-icon"><i class="fab fa-meta"></i></a>
+          <a href="#" class="twitter-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <a href="about.html">About</a>
+        <a href="recipes.html">Recipes</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <p>&copy; <span id="date">2025</span> <span class="project-name">SavorCraft</span>. All rights reserved.</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
 
 </html>
